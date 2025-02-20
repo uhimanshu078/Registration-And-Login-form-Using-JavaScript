@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#registerForm{
+    width: 37%;
+    height: 370px;
+    box-shadow: 0px 5px 10px grey;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+p{
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+hr{
+    border: none;
+    border-top: 0.5px solid #ccc;
+}
+
+#email,#password,#username{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 99%;
+    margin-top: 10px;
+    background-color: #F5F6F7;
+}
+#fname,#sname{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 49%;
+    margin-top: 10px;
+    background-color: #F5F6F7;
+}
+
+#btn{
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border: none;
+    border: 1px solid #ccc;
+    background-color: #1062b4;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#loginForm{
+    
+    width: 37%;
+    height: 280px;
+    box-shadow: 0px 5px 10px grey;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#login-username , #login-password{
+
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 99%;
+    margin-top: 10px;
+    background-color: #F5F6F7;
+}

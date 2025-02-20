@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="registerForm">
+        <form action="" onsubmit="return registerUser(event)">
+    
+            <h1> Sign Up </h1>
+            <p> Its quick and easy</p>
+            <hr>
+            <input type="text" name="fname" placeholder="First Name" id="fname">
+            <input type="text" name="sname" placeholder="Surname" id="sname">
+            <input type="text" id="username" placeholder="username">
+            <input type="text" name="Email" placeholder="Enter Your Email" id="email">
+            <input type="password" name="password" placeholder="Enter Your Password" id="password">
+    
+            <button id="btn" onclick="registerUser(event)"> Sign Up</button>
+    
+        </form>
+    
+        <p style="padding-top: 10px;">Don't have an account? <a href="#" onclick="toggleForms()">Register</a></p>
+    
+    </div>
+    
+    <div id="loginForm" style="display: none;" onsubmit="return login(event)">
+    
+        <form action="">
+            <h1 align="center"> Log In  </h1>
+            <p align="center"> Welcome to our App 🐷</p>
+            <hr>
+            <input type="text" name="Email" placeholder="Enter Your Username" id="login-username">
+            <input type="password" name="password" placeholder="Enter Your Password" id="login-password">
+    
+            <input type="submit" value="log in" id="btn" onclick="login(event)"> 
+    
+        </form>
+    
+        
+        <p>Don't have an account? <a href="#" onclick="toggleForms()">Register</a></p>
+    
+    </div>
+    
+
+    <script src="./app.js"> </script>
+
+</body>
+
+</html>
